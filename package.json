@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallharmony-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol stdio server wrapping fallharmony-sdk. Six tools + operational-rules and seven-lessons as resources.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallharmony-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "keywords": ["mcp", "model-context-protocol", "ops", "session-hygiene", "ai-native"],
+  "author": "AI Native Solutions",
+  "license": "MIT",
+  "homepage": "https://github.com/sjgant80-hub/fallharmony-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallharmony-mcp.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
